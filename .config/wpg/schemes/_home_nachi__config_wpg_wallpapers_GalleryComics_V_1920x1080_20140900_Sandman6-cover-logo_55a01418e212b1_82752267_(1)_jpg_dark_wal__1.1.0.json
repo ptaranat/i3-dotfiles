@@ -1,0 +1,28 @@
+{
+    "wallpaper": "/home/nachi/.config/wpg/wallpapers/GalleryComics_V_1920x1080_20140900_Sandman6-cover-logo_55a01418e212b1.82752267_(1).jpg",
+    "alpha": "100",
+
+    "special": {
+        "background": "#080F10",
+        "foreground": "#e5e1cb",
+        "cursor": "#e5e1cb"
+    },
+    "colors": {
+        "color0": "#080F10",
+        "color1": "#96976D",
+        "color2": "#D7B757",
+        "color3": "#616F8D",
+        "color4": "#5D959C",
+        "color5": "#A3A696",
+        "color6": "#C2B7AD",
+        "color7": "#e5e1cb",
+        "color8": "#a09d8e",
+        "color9": "#96976D",
+        "color10": "#D7B757",
+        "color11": "#616F8D",
+        "color12": "#5D959C",
+        "color13": "#A3A696",
+        "color14": "#C2B7AD",
+        "color15": "#e5e1cb"
+    }
+}

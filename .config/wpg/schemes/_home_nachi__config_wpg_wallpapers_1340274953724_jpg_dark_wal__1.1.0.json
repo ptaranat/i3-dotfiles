@@ -1,0 +1,28 @@
+{
+    "wallpaper": "/home/nachi/.config/wpg/wallpapers/1340274953724.jpg",
+    "alpha": "100",
+
+    "special": {
+        "background": "#0E0B21",
+        "foreground": "#ffffea",
+        "cursor": "#ffffea"
+    },
+    "colors": {
+        "color0": "#0E0B21",
+        "color1": "#DE9568",
+        "color2": "#DEAA8E",
+        "color3": "#DDAD47",
+        "color4": "#175A90",
+        "color5": "#AB9790",
+        "color6": "#787891",
+        "color7": "#ede6ca",
+        "color8": "#1d1647",
+        "color9": "#ffbc72",
+        "color10": "#ffd5a0",
+        "color11": "#ffe749",
+        "color12": "#1276c6",
+        "color13": "#f2baa6",
+        "color14": "#8a8acd",
+        "color15": "#ffffea"
+    }
+}

@@ -1,0 +1,31 @@
+sw_volume: 90
+audio_device_state:1:pulse audio
+audio_device_state:1:FIFO
+state: pause
+current: 11
+time: 5.634000
+random: 0
+repeat: 0
+single: 0
+consume: 0
+crossfade: 0
+mixrampdb: 0.000000
+mixrampdelay: -1.000000
+playlist_begin
+0:Flying Lotus -2010 - Cosmogramma/01. Flying Lotus - Clock Catcher.mp3
+1:Flying Lotus -2010 - Cosmogramma/02. Flying Lotus - Pickled!.mp3
+2:Flying Lotus -2010 - Cosmogramma/03. Flying Lotus - Nose Art.mp3
+3:Flying Lotus -2010 - Cosmogramma/04. Flying Lotus - Intro A Cosmic Drama.mp3
+4:Flying Lotus -2010 - Cosmogramma/05. Flying Lotus - Zodiac St.mp3
+5:Flying Lotus -2010 - Cosmogramma/06. Flying Lotus - Computer Face Pure Being.mp3
+6:Flying Lotus -2010 - Cosmogramma/07. Flying Lotus - ...And the World Laughs With You (feat. Thom Yorke).mp3
+7:Flying Lotus -2010 - Cosmogramma/08. Flying Lotus - Arkestry.mp3
+8:Flying Lotus -2010 - Cosmogramma/09. Flying Lotus - MmmHmm (feat. Thundercat).mp3
+9:Flying Lotus -2010 - Cosmogramma/10. Flying Lotus - Do The Astral Plane.mp3
+10:Flying Lotus -2010 - Cosmogramma/11. Flying Lotus - Satelllliiiiiiiteee.mp3
+11:Flying Lotus -2010 - Cosmogramma/12. Flying Lotus - German Haircut.mp3
+12:Flying Lotus -2010 - Cosmogramma/13. Flying Lotus - Recoiled.mp3
+13:Flying Lotus -2010 - Cosmogramma/14. Flying Lotus - Dance Of The Pseudo Nymph.mp3
+14:Flying Lotus -2010 - Cosmogramma/15. Flying Lotus - Dripsauntie's Harp.mp3
+15:Flying Lotus -2010 - Cosmogramma/16. Flying Lotus - Table Tennis (feat. Laura Darlington).mp3
+playlist_end

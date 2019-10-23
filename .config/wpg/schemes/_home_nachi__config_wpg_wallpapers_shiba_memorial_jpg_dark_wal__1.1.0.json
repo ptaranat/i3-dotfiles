@@ -1,0 +1,28 @@
+{
+    "wallpaper": "/home/nachi/.config/wpg/wallpapers/shiba_memorial.jpg",
+    "alpha": "100",
+
+    "special": {
+        "background": "#0B0B0B",
+        "foreground": "#e7e3dd",
+        "cursor": "#e7e3dd"
+    },
+    "colors": {
+        "color0": "#0B0B0B",
+        "color1": "#837C71",
+        "color2": "#8E8679",
+        "color3": "#A69E91",
+        "color4": "#B0A798",
+        "color5": "#C4BBAB",
+        "color6": "#CFC7B8",
+        "color7": "#e7e3dd",
+        "color8": "#a19e9a",
+        "color9": "#837C71",
+        "color10": "#8E8679",
+        "color11": "#A69E91",
+        "color12": "#B0A798",
+        "color13": "#C4BBAB",
+        "color14": "#CFC7B8",
+        "color15": "#e7e3dd"
+    }
+}
