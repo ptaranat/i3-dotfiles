@@ -4,8 +4,8 @@
 # Path to your oh-my-zsh installation.
 export ZSH="/home/nachi/.oh-my-zsh"
 
-eval $( dircolors -b $HOME/.dircolors )
-
+# eval $( dircolors -b $HOME/.dircolors )
+eval $(dircolors ~/.dircolors)
 # Set name of the theme to load --- if set to "random", it will
 # load a random theme each time oh-my-zsh is loaded, in which case,
 # to know which specific one was loaded, run: echo $RANDOM_THEME
@@ -117,3 +117,4 @@ export VISUAL=/usr/bin/vim
 # export PATH=$HOME/Documents/Scripts/color-scripts:$PATH
 # export PATH=/$HOME/Documents/Scripts/wal-discord:$PATH
 export PATH=/$HOME/.emacs.d/bin:$PATH
+source /home/nachi/.oh-my-zsh/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh

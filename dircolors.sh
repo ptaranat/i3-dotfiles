@@ -1,0 +1,1 @@
+/usr/share/LS_COLORS/dircolors.sh

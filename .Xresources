@@ -1,0 +1,89 @@
+Xft.dpi:                96
+Xft.antialias:          true
+Xft.hinting:            true
+Xft.rgba:               rgb
+Xft.autohint:           true
+Xft.hintstyle:          hintslight
+Xft.lcdfilter:          lcddefault
+Xcursor.theme:          OpenZone_Fire
+#define font1         ProFontIIx Nerd Font
+#define font2         DejaVu Sans Mono Nerd Font
+
+URxvt*letterSpace: 0
+URxvt*font:           xft:font1:pixelsize=9, xft:font2:pixelsize=9
+URxvt*boldFont:       xft:font1:pixelsize=9, xft:font2:pixelsize=9
+URxvt*italicFont:     xft:font1:pixelsize=9, xft:font2:pixelsize=9
+URxvt*boldItalicFont: xft:font1:pixelsize=9, xft:font2:pixelsize=9
+
+!URxvt*font:             xft:ProFont:pixelsize=11:antialias=false,\
+!                        xft:Kochi Gothic,\
+!                        xft:Baekmuk Dotum,\
+!                        xft:WenQuanYi Bitmap Song,\
+!                        xft:DejaVu Sans Mono,\
+!                        xft:FreeSerif
+
+!URxvt*boldFont:         xft:ProFont:pixelsize=11:antialias=false,\
+!                        xft:Kochi Gothic,\
+!                       	xft:Baekmuk Dotum,\
+!                     	xft:WenQuanYi Bitmap Song,\
+!              	        xft:DejaVu Sans Mono,\
+!                       	xft:FreeSerif
+
+URxvt.modifier:         alt
+URxvt.fading:           false
+URxvt.scrollBar:        false
+URxvt.urgentOnBell:     true
+URxvt.geometry:         84x20
+URxvt.depth:            24
+URxvt.saveLines:        10000
+!URxvt*termName:         rxvt-unicode-256color
+
+URxvt*internalBorder:   1
+
+URxvt.preeditType:      OverTheSpot
+URxvt.inputMethod:      ibus
+URxvt*background:       #1b1b1b
+URxvt*foreground:       #cccaca
+URxvt*cursorColor:      #e9e6e6
+
+!Black
+URxvt*color0:           #222222
+URxvt*color8:           #5b595a
+
+! red
+URxvt.color1:       #a54242
+URxvt.color9:       #cc6666
+
+! green
+URxvt.color2:       #8c9440
+URxvt.color10:      #b5bd68
+
+! yellow
+URxvt.color3:       #de935f
+URxvt.color11:      #f0c674
+
+! blue
+URxvt.color4:       #5f819d
+URxvt.color12:      #81a2be
+
+! magenta
+URxvt.color5:       #85678f
+URxvt.color13:      #b294bb
+
+! cyan
+URxvt.color6:       #5e8d87
+URxvt.color14:      #8abeb7
+
+! white
+URxvt.color7:       #bcb9b9
+URxvt.color15:      #e9e6e6
+
+URxvt.perl-lib:         /home/mokou/.config/urxvt
+URxvt.perl-ext:         default,matcher
+
+URxvt.url-launcher:     xdg-open
+URxvt.colorUL:          #94aad1
+URxvt.matcher.button:   1
+
+URxvt*keysym.Home:      [1~
+URxvt*keysym.End:       [4~

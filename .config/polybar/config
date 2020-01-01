@@ -1,15 +1,15 @@
 [colors]
-background = ${xrdb:color8:#434343}
+background = ${xrdb:color0:#222222}
 foreground = ${xrdb:color15:#fffaea}
 active = #cb4454
 inactive = #8c2e39
 highlight = ${xrdb:color2:#E4515E}
 error = ${xrdb:color9:#ff2363}
 
-[bar/wpgtk]
+[bar/main]
 monitor = ${env:MONITOR:LVDS1}
 width = 100%
-height = 17
+height = 15
 offset-y = 0%
 radius = 0.0
 fixed-center = true
@@ -30,7 +30,7 @@ module-margin-left = 0
 module-margin-right = 0
 
 font-0 = ProFontWindows Nerd Font:style=Book:size=9;1
-font-1 = FontAwesome:style=Regular:size=10;2
+font-1 = FontAwesome:size=9;2
 
 modules-left = i3 xwindow mpd
 modules-center =
@@ -41,9 +41,11 @@ tray-background = ${colors.inactive}
 
 [module/xwindow]
 type = internal/xwindow
-format-background = ${colors.active}
+format-background = ${colors.background}
 format-padding = 1
-label = %title:0:25: ...%
+;label = %title:0:25: ...%
+label = %title%
+label-maxlen = 50
 
 [module/bspwm]
 type = internal/bspwm
@@ -73,11 +75,11 @@ fuzzy-matching = true
 ; Only show workspaces on the same output as the bar
 pin-workspaces = true
 
-ws-icon-0 = 1;
-ws-icon-1 = 2;
-ws-icon-2 = 9;
-ws-icon-3 = 10;
-ws-icon-default = 
+;ws-icon-0 = 1;
+;ws-icon-1 = 2;
+;ws-icon-2 = 9;
+;ws-icon-3 = 10;
+;ws-icon-default = 
 
 label-mode-padding = 1
 label-mode-foreground = ${colors.foreground}
@@ -160,8 +162,8 @@ type = internal/alsa
 format-volume = <ramp-volume> <label-volume>
 format-volume-padding = 1
 format-volume-background = ${colors.active}
-ramp-volume-0 = 
-ramp-volume-1 = 
+ramp-volume-0 = 
+ramp-volume-1 = 
 ramp-volume-2 = 
 ramp-volume-3 = 
 ramp-volume-foreground = ${colors.foreground}

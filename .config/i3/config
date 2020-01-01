@@ -5,12 +5,12 @@ set $alt Mod1
 # Gaps settings
 
 for_window [class="^.*"] border pixel 0
-# smart_gaps on
-gaps inner 5
-gaps outer 1
+smart_gaps on
+gaps inner 2
+gaps outer 0
 
-bindsym $super+Shift+t gaps inner all set 5; gaps outer all set 1
-bindsym $super+Shift+y gaps inner all set 10; gaps outer all set 10
+bindsym $super+Shift+t gaps inner all set 2; gaps outer all set 0
+bindsym $super+Shift+y gaps inner all set 10; gaps outer all set 0
 bindsym $super+Shift+u gaps inner all set 20; gaps outer all set 50
 
 # set font
@@ -21,7 +21,7 @@ floating_modifier $super
 
 #autostart
 exec --no-startup-id xsettingsd &
-exec --no-startup-id compton -b
+exec --no-startup-id picom -b
 exec --no-startup-id nm-applet
 exec --no-startup-id nitrogen --restore
 exec_always --no-startup-id ~/.config/polybar/launch.sh &
@@ -32,12 +32,12 @@ exec --no-startup-id redshift-gtk
 bindsym $super+Return exec i3-sensible-terminal
 
 # start dmenu (a program launcher)
-bindsym $super+d exec rofi -lines 12 -padding 18 -width 60 -location 0 -show drun -sidebar-mode -columns 3 -font 'Noto Sans 8'
-
+# bindsym $super+d exec rofi -lines 12 -padding 18 -width 60 -location 0 -show drun -sidebar-mode -columns 3 -font 'Noto Sans 8'
+bindsym $super+d exec rofi -lines 15 -padding 5 -width 50 -location 0 -show drun -sidebar-mode -columns 3 -font 'roboto mono 8'
 # common apps keybinds
 bindsym Print exec scrot Pictures/screens/Screenshot_%a-%d%b%y_%H.%M.png -e 'feh ~/$f'
 #bindsym $super+Shift+q
-bindsym $super+Shift+w exec firefox
+bindsym $super+Shift+w exec google-chrome-unstable --enable-features=WebUIDarkMode --force-dark-mode
 #bindsym $super+Shift+e
 #bindsym $super+Shift+r
 #bindsym $super+Shift+a
@@ -143,13 +143,14 @@ bindsym $super+r mode "resize"
 
 # window rules, you can find the window class using xprop
 for_window [class=".*"] border pixel 0
-for_window [class=Thunar|feh|Pamac-manager|Fsearch] floating enable
+for_window [class=Thunar|feh|Pamac-manager|Fsearch|Engrampa|Mousepad] floating enable
 for_window [class=URxvt] focus
 for_window [class="Firefox"] focus
-assign [class="URxvt"] 2
+for_window [window_role="splash"] floating enable, border none
+#assign [class="URxvt"] 2
 assign [class="discord"] 9
 assign [class="ncmpcpp"] 10
-assign [class="Firefox"] 1
+#assign [class="Firefox"] 1
 
 # colour of border, background, text, indicator, and child_border
 client.focused              #bf616a #2f343f #d8dee8 #bf616a #d8dee8
