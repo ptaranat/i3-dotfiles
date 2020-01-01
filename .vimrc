@@ -156,6 +156,12 @@ map <silent> <F3> :TagbarToggle<CR>
 map <silent> <F4> :ccl<CR>
 map <silent> <F5> :make! \| :copen<CR>
 
+" Esc in insert mode
+inoremap kj <Esc>
+
+" Esc in command mode
+cnoremap kj <Esc>
+
 " Move tabs with shift + h/l
 nnoremap <silent><S-h> :tabmove -1<CR>
 nnoremap <silent><S-l> :tabmove +1<CR>
