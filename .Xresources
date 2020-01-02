@@ -10,7 +10,7 @@ Xcursor.theme:          OpenZone_Fire
 #define font2         DejaVu Sans Mono Nerd Font
 
 URxvt*letterSpace: 0
-URxvt*font:           xft:font1:pixelsize=9, xft:font2:pixelsize=9
+URxvt*font:           xft:font1:pixelsize=9, xft:font2:pixelsize=9, xft:symbola:size=11
 URxvt*boldFont:       xft:font1:pixelsize=9, xft:font2:pixelsize=9
 URxvt*italicFont:     xft:font1:pixelsize=9, xft:font2:pixelsize=9
 URxvt*boldItalicFont: xft:font1:pixelsize=9, xft:font2:pixelsize=9
