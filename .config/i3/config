@@ -33,7 +33,7 @@ bindsym $super+Return exec i3-sensible-terminal
 
 # start dmenu (a program launcher)
 # bindsym $super+d exec rofi -lines 12 -padding 18 -width 60 -location 0 -show drun -sidebar-mode -columns 3 -font 'Noto Sans 8'
-bindsym $super+d exec rofi -lines 15 -padding 5 -width 50 -location 0 -show drun -sidebar-mode -columns 3 -font 'roboto mono 8'
+bindsym $super+d exec rofi -lines 15 -padding 5 -width 50 -location 0 -show drun -sidebar-mode -columns 3 -font 'DejaVu Sans 8'
 # common apps keybinds
 bindsym Print exec scrot Pictures/screens/Screenshot_%a-%d%b%y_%H.%M.png -e 'feh ~/$f'
 #bindsym $super+Shift+q
@@ -46,7 +46,7 @@ bindsym $super+Shift+d exec discord
 bindsym $super+Shift+f exec urxvt -e ranger
 
 # lock screen
-bindsym $super+l exec i3lock
+#bindsym $super+l exec i3lock
 bindsym $alt+Control+Delete exec xfce4-session-logout
 
 # open config
@@ -68,19 +68,19 @@ bindsym $super+q kill
 bindsym $alt+F4 kill
 
 # change focus
-bindsym $super+Left focus left
-bindsym $super+Down focus down
-bindsym $super+Up focus up
-bindsym $super+Right focus right
+bindsym $super+h focus left
+bindsym $super+j focus down
+bindsym $super+k focus up
+bindsym $super+l focus right
 
 # move focused window
-bindsym $super+Shift+Left move left
-bindsym $super+Shift+Down move down
-bindsym $super+Shift+Up move up
-bindsym $super+Shift+Right move right
+bindsym $super+Shift+h move left
+bindsym $super+Shift+j move down
+bindsym $super+Shift+k move up
+bindsym $super+Shift+l move right
 
 # split in horizontal orientation
-bindsym $super+h split h
+bindsym $super+b split h
 
 # split in vertical orientation
 bindsym $super+v split v
