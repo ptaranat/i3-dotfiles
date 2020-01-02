@@ -54,6 +54,10 @@ Plugin 'noprompt/vim-yardoc'
 " Lua
 Plugin 'raymond-w-ko/vim-lua-indent'
 
+" Markdown
+Plugin 'godlygeek/tabular' 
+Plugin 'plasticboy/vim-markdown'
+
 " Web
 Plugin 'hail2u/vim-css3-syntax'
 Plugin 'othree/html5.vim'
