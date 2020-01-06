@@ -1,5 +1,5 @@
 # dotfiles
-
+```
 dunst       > notifcations daemon
 i3-gaps     > tiling window manager
 vim         > text editor config
@@ -16,6 +16,7 @@ rofi        > app launcher
 urxvt       > terminal
 zathura     > document viewer
 zsh         > shell with oh-my-zsh plugins
+```
 
 Take what you need, use at your own risk
 
