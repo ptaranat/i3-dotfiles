@@ -5,7 +5,7 @@ set $alt Mod1
 # Gaps settings
 
 for_window [class="^.*"] border pixel 0
-smart_gaps on
+#smart_gaps on
 gaps inner 2
 gaps outer 0
 
@@ -27,14 +27,15 @@ exec --no-startup-id nitrogen --restore
 exec_always --no-startup-id ~/.config/polybar/launch.sh &
 exec --no-startup-id ~/.config/wpg/wp_init.sh 
 exec --no-startup-id redshift-gtk
+# exec_always --no-startup-id urxvt -name cordless -e cordless
+# exec_always --no-startup-id urxvt -name weechat -e weechat
 
 # start a terminal
 bindsym $super+Return exec i3-sensible-terminal
 
 # start dmenu (a program launcher)
 # bindsym $super+d exec rofi -lines 12 -padding 18 -width 60 -location 0 -show drun -sidebar-mode -columns 3 -font 'Noto Sans 8'
-bindsym $super+d exec rofi -lines 15 -padding 5 -width 50 -location 0 -show drun -sidebar-mode -columns 3 -font 'DejaVu Sans 8'
-# common apps keybinds
+bindsym $super+d exec rofi -show drun -sidebar-mode
 bindsym Print exec scrot Pictures/screens/Screenshot_%a-%d%b%y_%H.%M.png -e 'feh ~/$f'
 #bindsym $super+Shift+q
 bindsym $super+Shift+w exec google-chrome-unstable --enable-features=WebUIDarkMode --force-dark-mode
@@ -148,8 +149,9 @@ for_window [class=URxvt] focus
 for_window [class="Firefox"] focus
 for_window [window_role="splash"] floating enable, border none
 #assign [class="URxvt"] 2
-assign [class="discord"] 9
-assign [class="ncmpcpp"] 10
+assign [instance=cordless|discord] 9
+assign [instance=weechat] 10
+#assign [class="ncmpcpp"] 10
 #assign [class="Firefox"] 1
 
 # colour of border, background, text, indicator, and child_border
