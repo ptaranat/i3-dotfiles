@@ -7,10 +7,11 @@ Plugin 'VundleVim/Vundle.vim'
 
 " General plugins {{{
 Plugin 'scrooloose/syntastic'
+Plugin 'sheerun/vim-polyglot'
 Plugin 'scrooloose/nerdtree'
 Plugin 'xolox/vim-misc'
-Plugin 'embear/vim-localvimrc'
 Plugin 'xolox/vim-session'
+Plugin 'embear/vim-localvimrc'
 Plugin 'bling/vim-airline'
 Plugin 'vim-airline/vim-airline-themes'
 Plugin 'tpope/vim-fugitive'
