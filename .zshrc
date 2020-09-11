@@ -118,3 +118,9 @@ export VISUAL=/usr/bin/vim
 # export PATH=/$HOME/Documents/Scripts/wal-discord:$PATH
 export PATH=/$HOME/.emacs.d/bin:$PATH
 source /home/nachi/.oh-my-zsh/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+export PATH=/$HOME/.gem/ruby/2.7.0/bin:$PATH
+export EC535=$HOME/EC535
+export WORKSPACE=$HOME/lab4env
+export PATH=/$WORKSPACE/bin:$PATH
+bindkey "^[[1~" beginning-of-line
+bindkey "^[[4~" end-of-line
